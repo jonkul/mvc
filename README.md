@@ -1,1 +1,1 @@
-A dice game for the curce mvc at BTH
+A dice game for the course mvc at BTH
