@@ -1,0 +1,18 @@
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:25	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:25	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:42	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:42	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:47	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:47	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:36	Avoid unused local variables such as '$len'.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:60	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:60	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:62	Avoid unused local variables such as '$len'.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:69	Avoid variables with short names like $m. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:69	Avoid variables with short names like $m. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:23	The method playGame() has a Cyclomatic Complexity of 28. The configured cyclomatic complexity threshold is 10.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:23	The method playGame() has an NPath complexity of 50176. The configured NPath complexity threshold is 200.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:23	The method playGame() has 186 lines of code. Current threshold is set to 100. Avoid really long methods.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Router\Router.php:24	The method dispatch() has a Cyclomatic Complexity of 35. The configured cyclomatic complexity threshold is 10.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Router\Router.php:24	The method dispatch() has 145 lines of code. Current threshold is set to 100. Avoid really long methods.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Router\Router.php:123	Missing class import via use statement (line '123', column '29').
