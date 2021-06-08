@@ -47,7 +47,7 @@ class Router
             $_SESSION["throw"] = 1;
             
             $callable = new Game21;
-            $callable->playGame();
+            $callable->playGame21();
 
             return;
         
@@ -55,7 +55,7 @@ class Router
             $_SESSION["cthrow"] = 1;
             
             $callable = new Game21;
-            $callable->playGame();
+            $callable->playGame21();
 
             return;
 
@@ -95,7 +95,7 @@ class Router
             $_SESSION["throw"] = 1;
             
             $callable = new Game21;
-            $callable->playGame();
+            $callable->playGame21();
 
             return;
 

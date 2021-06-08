@@ -1,5 +1,14 @@
 phpcpd 6.0.3 by Sebastian Bergmann.
 
-No clones found.
+Found 2 clones with 102 duplicated lines in 2 files:
 
-Time: 00:00.003, Memory: 2.00 MB
+  - C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:67-120 (53 lines)
+    C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:61-114
+
+  - C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:142-191 (49 lines)
+    C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:136-185
+
+4.81% duplicated lines out of 2121 total lines of code.
+Average size of duplication is 51 lines, largest clone has 53 of lines
+
+Time: 00:00.076, Memory: 4.00 MB

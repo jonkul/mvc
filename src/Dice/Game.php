@@ -20,7 +20,7 @@ use Jonkul\Dice\DiceHand;
  */
 class Game
 {
-    public function playGame(): void
+    public function playGame()
     {
         $data = [
             "header" => "A showcase of some Dice functions",
@@ -28,27 +28,25 @@ class Game
         ];
 
         $die = new Dice();
-        //$die->setSides(60);
         $die->roll();
 
         $gDie = new GraphicalDice();
-        //$die->setSides(60);
         $gDie->roll();
 
         $diceHand = new DiceHand(2);
-        //$diceHand->setSides(60);
-        //$diceHand->setNumberD(6);
         $diceHand->roll();
 
         $data["dieLastRoll"] = $die->getLastRoll();
         $data["gDieLastRoll"] = $gDie->getLastRoll();
         $data["gDieLastRollG"] = $gDie->graphic();
-        $data["diceHandRoll"] = $diceHand->getLastRoll();
+        $data["diceHandRoll"] = $diceHand->getLastRollStr();
 
         $diceHand->roll();
-        $data["diceHandRoll1"] = $diceHand->getLastRoll();
+        $data["diceHandRoll1"] = $diceHand->getLastRollStr();
 
-        $body = renderView("layout/dice.php", $data);
-        sendResponse($body);
+        return $data;
+
+        /* $body = renderView("layout/dice.php", $data);
+        sendResponse($body); */
     }
 }

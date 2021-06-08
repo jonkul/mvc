@@ -28,8 +28,10 @@ use function Mos\Functions\url;
         <a href="<?= url("/some/where") ?>">some/where</a> |
         <a href="<?= url("/no/such/path") ?>">Show 404 example</a> |
         <a href="<?= url("/form/view") ?>">Form view</a> |
-        <a href="<?= url("/dice") ?>">Dice Functions</a> |
-        <a href="<?= url("/dice21") ?>">Game 21</a>
+        <a href="<?= url("/dice/playGame") ?>">Dice Functions</a> |
+        <a href="<?= url("/dice21") ?>">Game 21</a> |
+        <a href="<?= url("/yatzyF") ?>">Y. Functions</a> |
+        <a href="<?= url("/yatzy") ?>">Yatzi</a> |
     </nav>
 </header>
 <main>

@@ -1,18 +1,53 @@
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:25	Avoid variables with short names like $n. Configured minimum length is 3.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:25	Avoid variables with short names like $n. Configured minimum length is 3.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:42	Avoid variables with short names like $n. Configured minimum length is 3.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:42	Avoid variables with short names like $n. Configured minimum length is 3.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:47	Avoid variables with short names like $n. Configured minimum length is 3.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:47	Avoid variables with short names like $n. Configured minimum length is 3.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:36	Avoid unused local variables such as '$len'.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:60	Avoid variables with short names like $n. Configured minimum length is 3.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:60	Avoid variables with short names like $n. Configured minimum length is 3.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:62	Avoid unused local variables such as '$len'.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:69	Avoid variables with short names like $m. Configured minimum length is 3.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:69	Avoid variables with short names like $m. Configured minimum length is 3.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:23	The method playGame() has a Cyclomatic Complexity of 28. The configured cyclomatic complexity threshold is 10.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:23	The method playGame() has an NPath complexity of 50176. The configured NPath complexity threshold is 200.
-C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:23	The method playGame() has 186 lines of code. Current threshold is set to 100. Avoid really long methods.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:27	The method playGame21ctrl() has a Cyclomatic Complexity of 28. The configured cyclomatic complexity threshold is 10.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:27	The method playGame21ctrl() has an NPath complexity of 50176. The configured NPath complexity threshold is 200.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:27	The method playGame21ctrl() has 194 lines of code. Current threshold is set to 100. Avoid really long methods.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:254	Avoid unused local variables such as '$psr17Factory'.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:265	Avoid unused local variables such as '$psr17Factory'.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:276	Avoid unused local variables such as '$psr17Factory'.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:303	Avoid unused local variables such as '$psr17Factory'.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:315	Avoid unused local variables such as '$psr17Factory'.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Yatzy.php:28	The method playGame() has a Cyclomatic Complexity of 17. The configured cyclomatic complexity threshold is 10.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Yatzy.php:28	The method playGame() has an NPath complexity of 992. The configured NPath complexity threshold is 200.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Controller\Yatzy.php:51	Avoid unused local variables such as '$rolls'.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:18	The method __construct has a boolean flag argument $s, which is a certain sign of a Single Responsibility Principle violation.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:18	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:18	Avoid variables with short names like $s. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:18	Avoid variables with short names like $l. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:18	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:18	Avoid variables with short names like $s. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:18	Avoid variables with short names like $l. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:38	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:38	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:43	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:43	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:53	Avoid variables with short names like $s. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php:53	Avoid variables with short names like $s. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand 1.php:75	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand 1.php:75	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand 1.php:82	Avoid variables with short names like $m. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand 1.php:82	Avoid variables with short names like $m. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand 1.php:99	Avoid variables with short names like $d. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand 1.php:99	Avoid variables with short names like $d. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand 1.php:108	Avoid using Jonkul\Dice\count() function in for loops.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand 1.php:118	Avoid using Jonkul\Dice\count() function in for loops.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand 1.php:124	Avoid using Jonkul\Dice\count() function in for loops.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:41	Avoid using Jonkul\Dice\count() function in for loops.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:91	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:91	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:98	Avoid variables with short names like $m. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:98	Avoid variables with short names like $m. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:124	Avoid variables with short names like $d. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:124	Avoid variables with short names like $d. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:131	Avoid variables with short names like $as. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:131	Avoid variables with short names like $as. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:132	Avoid using Jonkul\Dice\count() function in for loops.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:144	Avoid using Jonkul\Dice\count() function in for loops.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:160	Avoid using Jonkul\Dice\count() function in for loops.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:186	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php:186	Avoid variables with short names like $n. Configured minimum length is 3.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:23	The method playGame21() has a Cyclomatic Complexity of 28. The configured cyclomatic complexity threshold is 10.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:23	The method playGame21() has an NPath complexity of 50176. The configured NPath complexity threshold is 200.
+C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Dice\Game21.php:23	The method playGame21() has 186 lines of code. Current threshold is set to 100. Avoid really long methods.
 C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Router\Router.php:24	The method dispatch() has a Cyclomatic Complexity of 35. The configured cyclomatic complexity threshold is 10.
 C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Router\Router.php:24	The method dispatch() has 145 lines of code. Current threshold is set to 100. Avoid really long methods.
 C:\Misc\xampp2\htdocs\dbwebb-kurser\mvc\me\game\src\Router\Router.php:123	Missing class import via use statement (line '123', column '29').

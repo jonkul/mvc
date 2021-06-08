@@ -20,11 +20,11 @@ use Jonkul\Dice\DiceHand;
  */
 class Game21
 {
-    public function playGame(): void
+    public function playGame21(): void
     {
         //set 1 die as default number
-        if (!isset($_SESSION["dieNum"])) {
-            $_SESSION["dieNum"] = "1";
+        if (!isset($_SESSION["numberD"])) {
+            $_SESSION["numberD"] = "1";
         }
 
         if (!isset($_SESSION["hold"])) {
@@ -43,13 +43,13 @@ class Game21
             "header" => "Game 21",
             "message" => "A little PHP Black Jack game",
             "action" => url("/dice21/process"),
-            "dieNum" => $_SESSION["dieNum"] ?? null,
+            "numberD" => $_SESSION["numberD"] ?? null,
             "hold" => $_SESSION["hold"] ?? null
         ];
 
         //create new dicehand unless already done
         if (!isset($_SESSION["playerDH"])) {
-            $_SESSION["playerDH"] = new DiceHand(intval($_SESSION["dieNum"]));
+            $_SESSION["playerDH"] = new DiceHand(intval($_SESSION["numberD"]));
             $_SESSION["playerDH"]->roll();
             $_SESSION["playerDHLastSumTot"] = 0;
 
@@ -110,7 +110,7 @@ class Game21
         if (isset($_SESSION["playerClose"]) && isset($_SESSION["cthrow"])) {
             //create new cpudicehand unless already done
             if (!isset($_SESSION["cpuDH"])) {
-                $_SESSION["cpuDH"] = new DiceHand(intval($_SESSION["dieNum"]));
+                $_SESSION["cpuDH"] = new DiceHand(intval($_SESSION["numberD"]));
                 $_SESSION["cpuDH"]->roll();
                 $_SESSION["cpuDHLastSumTot"] = 0;
                 $_SESSION["cpuDHFinalSumTot"] = $_SESSION["cpuDHLastSumTot"];

@@ -19,19 +19,38 @@ footer {
 /**
  * Style a dice using UTF-8 characters.
  */
-.dice-utf8 .dice-1::after { content: "\2680"; }
-.dice-utf8 .dice-2::after { content: "\2681"; }
-.dice-utf8 .dice-3::after { content: "\2682"; }
-.dice-utf8 .dice-4::after { content: "\2683"; }
-.dice-utf8 .dice-5::after { content: "\2684"; }
-.dice-utf8 .dice-6::after { content: "\2685"; }
+.dice-utf8 .dice-0::after, .dice-0s::after { content: "\2612"; }
+.dice-utf8 .dice-1::after, .dice-1s::after { content: "\2680"; }
+.dice-utf8 .dice-2::after, .dice-2s::after { content: "\2681"; }
+.dice-utf8 .dice-3::after, .dice-3s::after { content: "\2682"; }
+.dice-utf8 .dice-4::after, .dice-4s::after { content: "\2683"; }
+.dice-utf8 .dice-5::after, .dice-5s::after { content: "\2684"; }
+.dice-utf8 .dice-6::after, .dice-6s::after { content: "\2685"; }
+
+.dice-0s, .dice-1s, .dice-2s, .dice-3s, .dice-4s, .dice-5s, .dice-6s {
+    color: darkgreen;
+    pointer-events: none;
+}
+
 
 .dice-utf8 {
-    font-size: 32px;
+    font-size: 48px;
     font-style: normal;
     margin: 0;
 }
 
 .dice-utf8 i {
     font-style: normal;
+}
+
+.dice-utf8 a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.dice-utf8 a:hover {
+    font-style: normal;
+    text-decoration: none;
+    color: grey;
 }
