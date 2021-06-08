@@ -1,0 +1,59 @@
+#Pseudo code for the controller of the yatzi game in kmom02
+
+
+On page load:
+
+1.  If not set, declare and set initial variables:
+        a) Status message (welcome text content and instructions) -> render in view
+
+2.  If set, read from the session:
+        a) $round (1-6) for current game
+        b) $rolls (1-3) for current round
+        c) The lastRoll per dice in DiceHand[round] -> render these in view as utf-8 icons
+            c2) Unless the die is already saved() OR $rolls is > 2, make die clickable (link to setSaved())
+
+3.  If $rolls < 3 AND not all dice saved():
+        - Render roll() link in view
+
+4.  If $rolls > 2 OR all dice saved():
+        If $roundFinished = true:
+            If $round > 5:
+                If $finished = true:
+                    Game over -> render reset() button in view
+                Elseif $finished = false:
+                    a) Calculate final total score
+                    b) Calculate bonus, if any
+                    c) Update status message
+                    d) Set $finished to true
+                    e) Reload the page
+            Elseif $round <= 5:
+                a) Increase $round with 1
+                b) Update status message
+                c) Reload and repeat main flow with next DiceHand[round]
+                d) Render "ok"() button in view, click to continue
+        Elseif $roundFinished = false:
+            a) Round (1-6) is over, update status message
+            b) Set $roundFinished = true
+            c) Render "ok"() button in view, click to continue
+
+Functions used above:
+1)  roll()
+        a) Unless it exists, instantiate new DiceHand[$round] in session
+        b) Roll() all unsaved dice
+        c) Increase $rolls with 1 (0-3)
+        d) Update status message
+        e) Reload the page (if clicked)
+
+2)  setSaved($n)
+        a) Change $saved for the clicked die ($n) to true.
+        b) Reload the page (if clicked)
+
+3)  ok()
+        a) Render ok() button in view
+        b) Reload the page (if clicked)
+
+4)  reset()
+    a) Clear session and reload the page (if clicked)
+
+
+    
